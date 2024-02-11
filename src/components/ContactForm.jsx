@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import styles from './ContactForm.module.css';
 
 class ContactForm extends Component {
-  state = {
-    name: '',
-    number: '',
-  };
   render() {
     return (
       <form className={styles.form} onSubmit={this.props.submitFunction}>
